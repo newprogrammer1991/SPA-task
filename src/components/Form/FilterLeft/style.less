@@ -1,0 +1,60 @@
+
+.filter-left {
+  text-align: center;
+  .sort {
+    display: none;
+  }
+  label {
+    position: relative;
+    padding-right: 30px;
+    cursor: pointer;
+    &:before {
+      position: absolute;
+      right: 0px;
+      top: -2px;
+      content: "";
+      width: 23px;
+      height: 22px;
+      border: 2px solid #c1c1c1;
+      border-radius: 20%;
+    }
+    &:after {
+      position: absolute;
+      display: none;
+      top: -5px;
+      right: 4px;
+      content: "";
+      width: 7px;
+      height: 18px;
+      border: 6px solid #c1c1c1;
+      border-left: none;
+      border-top: none;
+      transform: rotate(45deg);
+    }
+  }
+  .search {
+    background: #2b303b;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+    width: 85%;
+    box-sizing: border-box;
+    color: white;
+
+  }
+}
+
+.filter-left input[type=checkbox]:checked + label:after {
+  display: block;
+}
+
+.filter-left {
+  .item {
+    margin-bottom: 10px;
+  }
+}
+
+input#text::-webkit-input-placeholder {
+  color: #65737e;
+}
