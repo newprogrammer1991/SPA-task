@@ -6,4 +6,4 @@ The front-end part of the application is written using React framework with Redu
 The back-end part of the application uses express.js.
 
 
-<a href="https://youtu.be/EgNy5RncteA" target="_blank"><img src="https://www.youtube.com/watch?v=EgNy5RncteA&feature=youtu.be" alt="Screencast" width="240" height="180" border="10" /></a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EgNy5RncteA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
